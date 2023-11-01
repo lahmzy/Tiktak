@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SanityAssetDocument } from "@sanity/Client";
+import { SanityAssetDocument } from "next-sanity";
 import { useRouter } from "next/router";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
