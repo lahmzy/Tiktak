@@ -76,7 +76,7 @@ const Upload = () => {
       };
 
       try {
-        await axios.post(`http:/${BASE_URL}/api/post`, doc);
+        await axios.post(`${BASE_URL}/api/post`, doc);
         router.push("/");
       } catch (error) {
         // Log the error for debugging
